@@ -1,8 +1,6 @@
 package main
 
 import (
-	"fmt"
-
 	"github.com/luchonicolosi/godesde0/ejercicios"
 )
 
@@ -27,7 +25,13 @@ func main() {
 	// 	fmt.Printf("%s \n", SO)
 	// }
 
-	num, texto := ejercicios.ConviertoAentero("sadasd")
+	// num, texto := ejercicios.ConviertoAentero("50")
 
-	fmt.Printf("Texo: %s\nNumero: %d", texto, num)
+	// fmt.Printf("%s\nNumero: %d", texto, num)
+
+	// teclado.IngresoNumero()
+
+	// iteraciones.Iterar()
+
+	ejercicios.IngresoNumero()
 }
