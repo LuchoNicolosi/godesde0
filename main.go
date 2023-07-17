@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/luchonicolosi/godesde0/ejercicios"
+	"github.com/luchonicolosi/godesde0/files"
 )
 
 func main() {
@@ -33,5 +33,9 @@ func main() {
 
 	// iteraciones.Iterar()
 
-	ejercicios.IngresoNumero()
+	// fmt.Println(ejercicios.TablaMultiplicar())
+
+	// files.GrabaTabla()
+	// files.SumaTabla()
+	files.LeerArchivo()
 }
