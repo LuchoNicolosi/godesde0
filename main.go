@@ -47,5 +47,5 @@ func main() {
 	//arreglos_slices.MuestroSlice()
 	//arreglos_slices.Capacidad()
 
-	
+	//mapas.MostrarMapas()
 }
