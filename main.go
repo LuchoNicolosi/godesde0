@@ -1,8 +1,6 @@
 package main
 
-import (
-	"github.com/luchonicolosi/godesde0/mapas"
-)
+import "github.com/luchonicolosi/godesde0/users"
 
 func main() {
 	// variables.MuestroEnteros()
@@ -48,4 +46,6 @@ func main() {
 	//arreglos_slices.Capacidad()
 
 	//mapas.MostrarMapas()
+
+	users.AltaUsuario()
 }

@@ -2,8 +2,8 @@ package variables
 
 import (
 	"fmt"
-	"time"
 	"strconv"
+	"time"
 )
 
 var nombre string //esta variable estara disponible para todos los archivos del paquete (variables)
@@ -25,6 +25,6 @@ func RestoVariables() {
 }
 
 func ConviertoAtexto(numero int) (bool, string) {
-texto := strconv.Itoa(numero)
-return true, texto
+	texto := strconv.Itoa(numero)
+	return true, texto
 }
