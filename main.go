@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/luchonicolosi/godesde0/files"
+	"github.com/luchonicolosi/godesde0/mapas"
 )
 
 func main() {
@@ -37,5 +37,15 @@ func main() {
 
 	// files.GrabaTabla()
 	// files.SumaTabla()
-	files.LeerArchivo()
+	// files.LeerArchivo()
+
+	// funciones.Calculos()
+	// funciones.LlamarClosure()
+	//funciones.Exponencia(2)
+
+	//arreglos_slices.MuestroArreglos()
+	//arreglos_slices.MuestroSlice()
+	//arreglos_slices.Capacidad()
+
+	
 }
