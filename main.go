@@ -1,6 +1,10 @@
 package main
 
-import ( d "github.com/luchonicolosi/godesde0/defer_panic")
+import (
+	"fmt"
+
+	"github.com/luchonicolosi/godesde0/goroutines"
+)
 
 func main() {
 	// variables.MuestroEnteros()
@@ -59,6 +63,15 @@ func main() {
 	// e.SeresVivos(Maria)
 	// e.SeresVivos(Pedro)
 
-	d.VemosDefer()
-	d.EjemploPanic()
+	// d.VemosDefer()
+	// d.EjemploPanic()
+
+	canal1 := make(chan bool)
+	go goroutines.MiNombreLentooo("Luciano nicolosi", canal1)
+	defer func() {
+		<-canal1 //imita al await
+	}()
+	
+	fmt.Println("Estoy aqui")
+
 }
