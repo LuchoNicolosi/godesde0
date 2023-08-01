@@ -1,6 +1,9 @@
 package main
 
-import "github.com/luchonicolosi/godesde0/users"
+import (
+	e "github.com/luchonicolosi/godesde0/ejer_interfaces"
+	"github.com/luchonicolosi/godesde0/modelos"
+)
 
 func main() {
 	// variables.MuestroEnteros()
@@ -47,5 +50,15 @@ func main() {
 
 	//mapas.MostrarMapas()
 
-	users.AltaUsuario()
+	//users.AltaUsuario()
+
+	Pedro := new(modelos.Hombre)
+
+	e.HumanosRespirando(Pedro)
+
+	Maria := new(modelos.Mujer) //Soy un Hombre, y estoy respondando
+	e.HumanosRespirando(Maria)  //Soy un Mujer, y estoy respondando
+
+	e.SeresVivos(Maria)
+	e.SeresVivos(Pedro)
 }
